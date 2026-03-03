@@ -16,6 +16,6 @@ C++ 프로그래밍 수업의 실습과제 레포지토리
 * 사용법이 좀 복잡하지만 어차피 해야할일인데 미리미리 공부해두면 두고두고 도움이 될것임
 ```
 <br>
-<a href="https://sseozytank.tistory.com/41">
+<a href="https://sseozytank.tistory.com/41">인터넷 자료</a>
 <br>
-<a href="https://github.com/2sungryul/CppProgramming/tree/main/ch01">
+<a href="https://github.com/2sungryul/CppProgramming/tree/main/ch01">작성 예시</a>
