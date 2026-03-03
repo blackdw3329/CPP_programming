@@ -10,7 +10,7 @@ C++ 프로그래밍 수업의 실습과제 레포지토리
 4. github의 소스파일의 주소를 과제게시판에 작성 -> 주소에 접속하면 소스파일(cpp)과 과제설명(README.md)이 보여야함
 5. 작성 예시 -> https://github.com/2sungryul/CppProgramming/tree/main/ch01
 
-* github 사용법은 인터넷자료를 참고할것
+* github 사용법은 인터넷자료를 참고할것 -> https://sseozytank.tistory.com/41
 * 전공 작품 포트폴리오를 github로 관리하는것은 취업할때 기업에서 필수적으로 요구하는 사항임
 * 사용법이 좀 복잡하지만 어차피 해야할일인데 미리미리 공부해두면 두고두고 도움이 될것임
 ```
