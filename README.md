@@ -3,7 +3,7 @@
 C++ 프로그래밍 수업의 실습과제 레포지토리
 
 모든 과제보고서는 github에 작성할것
-[인터넷 자료](https://sseozytank.tistory.com/41)<\n>
+[인터넷 자료](https://sseozytank.tistory.com/41)<br>
 [작성 예시](https://github.com/2sungryul/CppProgramming/tree/main/ch01)
 ```
 1. github에 C++programming 레포지토리를 작성
