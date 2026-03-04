@@ -22,6 +22,6 @@ int main()
 ```
 * **프로그램이 정상적으로 종료되었음을 운영체제에 알리는 코드입니다.**
 
-#소스코드 결과
+# 소스코드 결과
 ---
 <img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/%EA%B2%B0%EA%B3%BC%ED%99%94%EB%A9%B41-2.png?raw=true" />
