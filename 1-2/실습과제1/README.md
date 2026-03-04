@@ -52,3 +52,15 @@ int main()
 # 소스코드 결과
 ---
 <img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/%EA%B2%B0%EA%B3%BC%ED%99%94%EB%A9%B41-2.png?raw=true" />
+
+<br><br>
+# 소스파일(cpp), 목적파일(obj), 실행파일(exe)의 위치를 찾아보라.
+
+## 소스파일(cpp)
+<img width="745" height="286" alt="소스코드" src="https://github.com/blackdw3329/just_box/blob/main/img/소스코드캡쳐.png?raw=true" />
+
+## 목적파일(obj)
+<img width="745" height="286" alt="목적파일" src="https://github.com/blackdw3329/just_box/blob/main/img/목적파일캡쳐.png?raw=true" />
+
+## 실행파일(exe)
+<img width="745" height="286" alt="실행파일" src="https://github.com/blackdw3329/just_box/blob/main/img/실행파일캡쳐.png?raw=true" />
