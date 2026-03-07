@@ -15,6 +15,6 @@ C++ 프로그래밍 수업의 실습과제 레포지토리
 * 전공 작품 포트폴리오를 github로 관리하는것은 취업할때 기업에서 필수적으로 요구하는 사항임
 * 사용법이 좀 복잡하지만 어차피 해야할일인데 미리미리 공부해두면 두고두고 도움이 될것임
 ```
-<a href="https://sseozytank.tistory.com/41">인터넷 자료</a>
+<a href="https://www.heropy.dev/p/B74sNE">마크다운 문법</a>
 <br>
 <a href="https://github.com/2sungryul/CppProgramming/tree/main/ch01">작성 예시</a>
