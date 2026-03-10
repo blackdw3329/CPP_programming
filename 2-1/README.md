@@ -5,7 +5,7 @@
 ## 2. 객체 cin, cout은 어디에 선언되어 있는가? <br>선언된 파일을 찾아서 의미를 설명하고 캡쳐하여 첨부하라
 > 객체 `cin`과 `cout`은 C++ 표준 입출력 라이브러리인 `iostream` 헤더 파일에 선언되어 있으며, `std` 네임스페이스에 포함되어 있습니다.
 > `cin`은 `istream` 객체로 표준 입력을 담당하고, `cout`은 `ostream` 객체로 표준 출력을 담당합니다.
-<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/%EC%84%A0%EC%96%B8%ED%8C%8C%EC%9D%BC%EC%BA%A1%EC%B3%90.png?raw=true" />
+<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/%EC%84%A0%EC%96%B8%ED%8C%8C%EC%9D%BC%EC%BA%A1%EC%B3%90%EC%B0%90.png?raw=true" />
 
 ## 3. 프로그램을 링크할때 이름 충돌이 발생하는 경우를 설명해보라
 > 서로 다른 파일에 같은 이름의 변수나 함수 정의되어 있으면 링커가 어떤 것을 사용할지 구분할 수 없어 오류가 발생합니다.
