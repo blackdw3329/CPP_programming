@@ -46,7 +46,7 @@ int main()
 	return 0;
 ```
 * **프로그램이 정상적으로 종료되었음을 운영체제에 알리는 코드입니다.**
-
+<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/2-1-2%EA%B2%B0%EA%B3%BC.png?raw=true" />
 
 
 # 실습과제3 소스코드 설명
@@ -75,6 +75,7 @@ cout << "100% \\취업율\\"<< endl;
 return 0;
 ```
 * **프로그램이 정상적으로 종료되었음을 운영체제에 알리는 코드입니다.**
+<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/2-1-3%EA%B2%B0%EA%B3%BC.png?raw=true" />
 
 # 실습과제4 소스코드 설명
 </br>
@@ -114,6 +115,7 @@ for (int i = 1; i <= n; i++)
 return 0;
 ```
 * **프로그램이 정상적으로 종료되었음을 운영체제에 알리는 코드입니다.**
+<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/2-1-4%EA%B2%B0%EA%B3%BC.png?raw=true" />
 
 # 실습과제5 소스코드 설명
 </br>
@@ -146,7 +148,7 @@ for (int i = 0; i < 4; i++)
 return 0;
 ```
 * **프로그램이 정상적으로 종료되었음을 운영체제에 알리는 코드입니다.**
-
+<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/2-1-5%EA%B2%B0%EA%B3%BC.png?raw=true" />
 
 
 
