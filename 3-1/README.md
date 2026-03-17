@@ -72,7 +72,7 @@ cout << "삼각형의 면적은 " << tri.getArea() << endl;
 return 0;
 ```
 * **프로그램이 정상적으로 종료되었음을 운영체제에 알리는 코드입니다.**
-<img width="745" height="286" alt="결과화면" src="결과화면 주소" />
+<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/3-1-2%EA%B2%B0%EA%B3%BC.png?raw=true" />\
 
 # 실습과제3 소스코드 설명
 </br>
@@ -86,30 +86,65 @@ using namespace std;
 ```
 * **std 이름공간에 선언된 모든 이름에 `std::`생략합니다.**
 ```
+class Sphere
+```
+* **구의 정보를 표현하기 위한 사용자 정의 클래스입니다.**
+```
+{
+public:
+	int rad;
+	double getVolume();
+	double getArea();
+};
+```
+* **반지름(rad)을 저장하고, 부피와 표면적을 계산하는 함수를 선언한 클래스입니다.**
+```
+double Sphere::getVolume()
+```
+* **구의 부피를 계산하는 멤버 함수를 정의합니다.**
+```
+{
+	return 4.0 / 3.0 * 3.14 * rad * rad * rad;
+}
+```
+* **공식 4/3 × π × r³을 이용하여 구의 부피를 계산합니다.**
+```
+double Sphere::getArea()
+```
+* **구의 표면적을 계산하는 멤버 함수를 정의합니다.**
+```
+{
+	return 4 * 3.14 * rad * rad;
+}
+```
+* **공식 4 × π × r²을 이용하여 구의 표면적을 계산합니다.**
+```
 int main()
 ```
 * **프로그램의 실행이 시작되는 메인 함수로, 프로그램의 시작 지점입니다.**
 
 ```
-code
+Sphere sp;
 ```
-* **설명**
+* **Sphere 클래스의 객체 sp를 생성합니다.**
 
 ```
-code
+sp.rad = 5;
 ```
-* **설명**
-
+* **반지름 값을 5로 설정합니다.**
 ```
-code
+cout << "구의 부피는: " << sp.getVolume() << endl;
 ```
-* **설명**
-
+* **구의 부피를 계산하여 출력합니다.**
+```
+cout << "구의 표면적은: " << sp.getArea() << endl;
+```
+* **구의 표면적을 계산하여 출력합니다.**
 ```
 return 0;
 ```
 * **프로그램이 정상적으로 종료되었음을 운영체제에 알리는 코드입니다.**
-<img width="745" height="286" alt="결과화면" src="결과화면 주소" />
+<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/3-1-3%EA%B2%B0%EA%B3%BC.png?raw=true" />
 
 # 실습과제4 소스코드 설명
 </br>
@@ -122,31 +157,88 @@ return 0;
 using namespace std;
 ```
 * **std 이름공간에 선언된 모든 이름에 `std::`생략합니다.**
+
+```
+class Rectangle
+```
+* **사각형 정보를 표현하기 위한 사용자 정의 클래스입니다.**
+
+```
+{
+public:
+	int x=1;
+	int y=2;
+	int width=3;
+	int height=4;
+	int getArea();
+	int getRound();
+	int getCoord();
+};
+```
+* **좌표(x, y)와 크기(width, height)를 저장하고, 면적·둘레·좌표를 계산하는 함수를 선언한 클래스입니다.**
+
+```
+int Rectangle::getArea()
+```
+* **Rectangle 클래스의 면적 계산 함수를 정의합니다.**
+
+```
+{
+	return width * height;
+}
+```
+* **가로 × 세로를 통해 사각형의 면적을 반환합니다.**
+
+```
+int Rectangle::getRound()
+```
+* **Rectangle 클래스의 둘레 계산 함수를 정의합니다.**
+```
+{
+	return 2 * (width + height);
+}
+```
+* **둘레 공식 2 × (가로 + 세로)를 이용하여 값을 반환합니다.**
+```
+int Rectangle::getCoord()
+```
+* **Rectangle 클래스의 우측 하단 좌표를 출력하는 함수를 정의합니다.**
+
+```
+{
+	cout << "사각형의 우측하단 죄표는 (" << x + width << "," << y - height << ")" << endl;
+	return 0;
+}
+```
+* **현재 좌표 기준으로 우측하단 좌표 (x+width, y-height)를 계산하여 출력합니다.**
 ```
 int main()
 ```
 * **프로그램의 실행이 시작되는 메인 함수로, 프로그램의 시작 지점입니다.**
+```
+Rectangle rect;
+```
+* **Rectangle 클래스의 객체 rect를 생성합니다.**
 
 ```
-code
+rect.width = 3;
 ```
-* **설명**
-
+* **사각형의 가로 길이를 3으로 설정합니다.**
 ```
-code
+cout << "사각형의 면적은 " << rect.getArea() << endl;
 ```
-* **설명**
-
+* **면적을 계산하여 출력합니다.**
 ```
-code
+rect.getCoord();
 ```
-* **설명**
+* **사각형의 우측하단 좌표를 계산하여 출력합니다.**
 
 ```
 return 0;
 ```
 * **프로그램이 정상적으로 종료되었음을 운영체제에 알리는 코드입니다.**
-<img width="745" height="286" alt="결과화면" src="결과화면 주소" />
+<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/3-1-4%EA%B2%B0%EA%B3%BC.png?raw=true" />
+
 
 # 실습과제5 소스코드 설명
 </br>
@@ -159,30 +251,105 @@ return 0;
 using namespace std;
 ```
 * **std 이름공간에 선언된 모든 이름에 `std::`생략합니다.**
+
+```
+class Rectangle
+```
+* **사각형 정보를 표현하기 위한 사용자 정의 클래스입니다.**
+
+```
+{
+public:
+	int x=1;
+	int y=2;
+	int width=3;
+	int height=4;
+	int getArea();
+	int getRound();
+	int getCoord();
+};
+```
+* **좌표(x, y)와 크기(width, height)를 저장하고, 면적·둘레·좌표를 계산하는 함수를 선언한 클래스입니다.**
+
+```
+int Rectangle::getArea()
+```
+* **Rectangle 클래스의 면적 계산 함수를 정의합니다.**
+
+```
+{
+	return width * height;
+}
+```
+* **가로 × 세로를 통해 사각형의 면적을 반환합니다.**
+
+```
+int Rectangle::getRound()
+```
+* **Rectangle 클래스의 둘레 계산 함수를 정의합니다.**
+```
+{
+	return 2 * (width + height);
+}
+```
+* **둘레 공식 2 × (가로 + 세로)를 이용하여 값을 반환합니다.**
+```
+int Rectangle::getCoord()
+```
+* **Rectangle 클래스의 우측 하단 좌표를 출력하는 함수를 정의합니다.**
+
+```
+{
+	cout << "사각형의 우측하단 죄표는 (" << x + width << "," << y - height << ")" << endl;
+	return 0;
+}
+```
+* **현재 좌표 기준으로 우측하단 좌표 (x+width, y-height)를 계산하여 출력합니다.**
 ```
 int main()
 ```
 * **프로그램의 실행이 시작되는 메인 함수로, 프로그램의 시작 지점입니다.**
+```
+Rectangle rect;
+```
+* **Rectangle 클래스의 객체 rect를 생성합니다.**
+```
+cout << "사각형의 좌측상단 좌표(x,y) : ";
+```
+* **좌표 입력 안내 메시지를 출력합니다.**
 
 ```
-code
+cin >> rect.x >> rect.y;
 ```
-* **설명**
+* **좌측상단 좌표를 입력받습니다.**
 
 ```
-code
+cout << "사각형의 폭과 높이(width,height) : ";
 ```
-* **설명**
+* **크기 입력 안내 메시지를 출력합니다.**
 
 ```
-code
+cin >> rect.width >> rect.height;
 ```
-* **설명**
+* **폭과 높이를 입력받습니다.**
+
+
+```
+rect.width = 3;
+```
+* **사각형의 가로 길이를 3으로 설정합니다.**
+```
+cout << "사각형의 면적은 " << rect.getArea() << endl;
+```
+* **면적을 계산하여 출력합니다.**
+```
+rect.getCoord();
+```
+* **사각형의 우측하단 좌표를 계산하여 출력합니다.**
 
 ```
 return 0;
 ```
 * **프로그램이 정상적으로 종료되었음을 운영체제에 알리는 코드입니다.**
-<img width="745" height="286" alt="결과화면" src="결과화면 주소" />
-
+<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/3-1-5%EA%B2%B0%EA%B3%BC.png?raw=true" />
 
