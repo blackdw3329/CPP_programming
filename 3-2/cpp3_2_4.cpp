@@ -1,6 +1,6 @@
 // **********************************************
 // 제 목 : 3_2 실습과제4
-// 날 짜 : 2026년 3월18일
+// 날 짜 : 2026년3월18일
 // 작성자 : 2301358 김동욱
 // **********************************************
 
@@ -41,7 +41,10 @@ int Rectangle::getRound()
 }
 void Rectangle::getCoord() 
 {
-	cout << "rect3의 우측하단의 좌표는(" << x + width << ", " << y - height << ")" << endl;
+	int* x_p = &x;
+	int* y_p = &y;
+	*x_p = x + width; 
+	*y_p = y - height;
 }
 
 int main() 
@@ -52,6 +55,7 @@ int main()
 	cout << "rect1의 면적은 " << rect1.getArea() << endl;
 	cout << "rect1의 둘레는 " << rect1.getRound() << endl;
 	rect3.getCoord();
+	cout << "rect3의 좌상단 좌표는 (" << rect3.x << ", " << rect3.y << ")" << endl;
 
 	return 0;
 }
