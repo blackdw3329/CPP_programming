@@ -16,6 +16,110 @@
 </br>
 
 ```
+#include <iostream>
+```
+* **입출력 기능을 사용하기 위해 `iostream` 라이브러리를 포함합니다.**
+
+```
+using namespace std;
+```
+* **`std::`를 생략하고 표준 라이브러리를 사용하기 위해 선언합니다.**
+
+```
+class Triangle
+```
+* **삼각형 정보를 표현하기 위한 사용자 정의 클래스입니다.**
+
+```
+{
+public:
+	Triangle() {
+		width = 1; height = 1;
+		cout << "폭" << width << ", 높이" << height << "인 삼각형 생성" << endl;
+	};
+	~Triangle() { cout << "폭" << width << ", 높이" << height << "인 삼각형 소멸" << endl; };
+	void setWidth(int w) { width = w; }
+	void setHeight(int h) { height = h; }
+	int getWidth() { return width; }
+	int getHeight() { return height; }
+	double getArea() { return 0.5 * width * height; }
+private:
+	int width, height;
+};
+```
+* **폭과 높이를 저장하고 생성자·소멸자·값 설정 및 조회·면적 계산 기능을 제공하는 클래스입니다.**
+
+```
+Triangle()
+```
+* **기본 생성자로 폭과 높이를 1로 초기화하고 생성 메시지를 출력합니다.**
+
+```
+~Triangle()
+```
+* **객체가 소멸될 때 호출되어 소멸 메시지를 출력합니다.**
+
+```
+void setWidth(int w)
+```
+* **폭을 설정하는 함수입니다.**
+
+```
+void setHeight(int h)
+```
+* **높이를 설정하는 함수입니다.**
+
+```
+int getWidth()
+```
+* **폭을 반환하는 함수입니다.**
+
+```
+int getHeight()
+```
+* **높이를 반환하는 함수입니다.**
+
+```
+double getArea()
+```
+* **삼각형의 면적을 계산하는 함수입니다.**
+
+```
+int main()
+```
+* **프로그램의 실행이 시작되는 메인 함수입니다.**
+
+```
+Triangle tri;
+```
+* **기본 생성자를 통해 (1,1)로 초기화된 객체를 생성합니다.**
+
+```
+tri.setWidth(3);
+```
+* **폭을 3으로 설정합니다.**
+
+```
+tri.setHeight(5);
+```
+* **높이를 5로 설정합니다.**
+
+```
+cout << "삼각형의 면적은 " << tri.getArea() << endl;
+```
+* **삼각형의 면적을 계산하여 출력합니다.**
+
+```
+return 0;
+```
+* **프로그램이 정상적으로 종료되었음을 의미합니다.**
+
+<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/%EA%B2%B0%EA%B3%BC2.png?raw=true" />
+
+# 실습과제3-1 소스코드 설명
+</br>
+
+```
 #define _CRT_SECURE_NO_WARNINGS
 ````
 
@@ -193,7 +297,7 @@ cout << a.getOwner() << " 잔액은 " << a.inquiry() << endl;
 
 <img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/%EA%B2%B0%EA%B3%BC3.png?raw=true" />
 
-# 실습과제4 소스코드 설명
+# 실습과제3-2 소스코드 설명
 </br>
 
 ```
@@ -299,7 +403,7 @@ cout << mt.getWidth() << "x" << mt.getHeight() << " " << mt.getPlace() << endl;
 
 <img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/%EA%B2%B0%EA%B3%BC4.png?raw=true" />
 
-# 실습과제5 소스코드 설명
+# 실습과제3-3 소스코드 설명
 </br>
 
 ```
