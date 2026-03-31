@@ -191,7 +191,7 @@ cout << a.getOwner() << " 잔액은 " << a.inquiry() << endl;
 
 * **최종 잔액을 출력합니다.**
 
-<img width="745" height="286" alt="결과화면" src="결과화면 주소" />
+<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/%EA%B2%B0%EA%B3%BC3.png?raw=true" />
 
 # 실습과제4 소스코드 설명
 </br>
@@ -297,7 +297,7 @@ cout << mt.getWidth() << "x" << mt.getHeight() << " " << mt.getPlace() << endl;
 ```
 * **두 번째 객체의 크기와 위치를 출력합니다.**
 
-<img width="745" height="286" alt="결과화면" src="결과화면 주소" />
+<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/%EA%B2%B0%EA%B3%BC4.png?raw=true" />
 
 # 실습과제5 소스코드 설명
 </br>
@@ -425,4 +425,4 @@ cout << "평균 체온은 " << a.getAvg() << "입니다." << endl;
 ```
 * **평균 값을 계산하여 출력합니다.**
 
-<img width="745" height="286" alt="결과화면" src="결과화면 주소" />
+<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/%EA%B2%B0%EA%B3%BC5.png?raw=true" />
