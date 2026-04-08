@@ -125,7 +125,7 @@ return 0;
 ```
 * **프로그램이 정상적으로 종료됩니다.**
 
-<img width="745" height="700" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/4-3-2%EA%B2%B0%EA%B3%BC.png?raw=true" />
+<img width="400" height="500" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/4-3-2%EA%B2%B0%EA%B3%BC.png?raw=true" />
 
 
 # 실습과제3 소스코드 설명
@@ -239,13 +239,10 @@ for (int i = 0; i < 3; i++)
 delete[] pArray;
 ```
 * **초기 주소를 유지한 포인터로 정상적으로 메모리를 해제합니다.**
-<div style="display: flex; gap: 10px;">
-	<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/4-3-3%EA%B2%B0%EA%B3%BC.png?raw=true" />
-  	<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/4-3-3%EA%B2%B0%EA%B3%BC(%ED%95%B4%EA%B2%B0).png?raw=true" />
-</div>
 
-
-
+| 실행 결과 | 해결 결과 |
+|----------|----------|
+| ![](https://github.com/blackdw3329/just_box/blob/main/img/4-3-3%EA%B2%B0%EA%B3%BC.png?raw=true) | ![](https://github.com/blackdw3329/just_box/blob/main/img/4-3-3%EA%B2%B0%EA%B3%BC(%ED%95%B4%EA%B2%B0).png?raw=true) |
 
 # 실습과제4 소스코드 설명
 </br>
@@ -347,7 +344,7 @@ return 0;
 ```
 * **프로그램이 정상적으로 종료됩니다.**
 
-<img width="745" height="700" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/4-3-4%EA%B2%B0%EA%B3%BC.png?raw=true" />
+<img width="400" height="500" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/4-3-4%EA%B2%B0%EA%B3%BC.png?raw=true" />
 
 
 # 실습과제5 소스코드 설명
@@ -445,4 +442,4 @@ return 0;
 ```
 * **프로그램이 정상적으로 종료됩니다.**
 
-<img width="745" height="700" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/4-3-5%EA%B2%B0%EA%B3%BC.png?raw=true" />
+<img width="400" height="500" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/4-3-5%EA%B2%B0%EA%B3%BC.png?raw=true" />
