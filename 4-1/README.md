@@ -76,11 +76,6 @@ int main()
 * **프로그램의 실행이 시작되는 메인 함수입니다.**
 
 ```
-unique_ptr<Triangle> ptr1(new Triangle());
-```
-* **`Triangle` 객체를 동적으로 생성하고 이를 관리하는 스마트 포인터를 선언합니다.**
-
-```
 Triangle tri;
 ```
 * **일반 객체 `tri`를 생성합니다.**
