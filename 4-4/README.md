@@ -65,7 +65,7 @@ return 0;
 ```
 * **프로그램이 정상적으로 종료됩니다.**
 
-<img width="745" height="286" alt="결과화면" src="결과화면 주소" />
+<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/4-4-2%EA%B2%B0%EA%B3%BC.png?raw=true" />
 
 # 실습과제3 소스코드 설명  
 </br>
@@ -123,7 +123,7 @@ return 0;
 ```
 * **프로그램이 정상적으로 종료되었음을 의미합니다.**
 
-<img width="745" height="286" alt="결과화면" src="결과화면 주소" />
+<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/4-4-3%EA%B2%B0%EA%B3%BC.png?raw=true" />
 
 # 연습문제5 소스코드 설명  
 </br>
@@ -233,7 +233,7 @@ return 0;
 ```
 * **프로그램이 정상적으로 종료되었음을 의미합니다.**
 
-<img width="745" height="286" alt="결과화면" src="결과화면 주소" />
+<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/4-4-4.5%EA%B2%B0%EA%B3%BC.png?raw=true" />
 
 # 연습문제8 소스코드 설명  
 </br>
@@ -359,7 +359,7 @@ return 0;
 ```
 * **프로그램이 정상적으로 종료되었음을 의미합니다.**
 
-<img width="745" height="286" alt="결과화면" src="결과화면 주소" />
+<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/4-4-4.8%EA%B2%B0%EA%B3%BC.png?raw=true" />
 
 
 # 연습문제9 소스코드 설명  
@@ -545,7 +545,7 @@ return 0;
 ```
 * **프로그램이 정상적으로 종료되었음을 의미합니다.**
 
-<img width="745" height="286" alt="결과화면" src="결과화면 주소" />
+<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/4-4-4.9%EA%B2%B0%EA%B3%BC.png?raw=true" />
 
 # 연습문제11 소스코드 설명  
 </br>
@@ -708,4 +708,4 @@ return 0;
 ```
 * **프로그램이 정상적으로 종료되었음을 의미합니다.**
 
-<img width="745" height="286" alt="결과화면" src="결과화면 주소" />
+<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/4-4-4.11%EA%B2%B0%EA%B3%BC.png?raw=true" />
