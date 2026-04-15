@@ -708,4 +708,4 @@ return 0;
 ```
 * **프로그램이 정상적으로 종료되었음을 의미합니다.**
 
-<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/4-4-4.11%EA%B2%B0%EA%B3%BC.png?raw=true" />
+<img width="500" height="700" alt="결과화면" src="https://github.com/blackdw3329/just_box/blob/main/img/4-4-4.11%EA%B2%B0%EA%B3%BC.png?raw=true" />
