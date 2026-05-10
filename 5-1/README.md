@@ -93,7 +93,7 @@ return 0;
 ```
 * **프로그램이 정상적으로 종료되었음을 의미합니다.**
 
-<img width="745" height="286" alt="결과화면" src="결과화면 주소" />
+<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/CPP_programming/blob/main/img/5-1-2.png?raw=true" />
 
 # 실습과제3 소스코드 설명  
 </br>
@@ -152,7 +152,7 @@ return 0;
 ```
 * **프로그램이 정상적으로 종료되었음을 의미합니다.**
 
-<img width="745" height="286" alt="결과화면" src="결과화면 주소" />
+<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/CPP_programming/blob/main/img/5-1-3.png?raw=true" />
 
 # 실습과제4 소스코드 설명  
 </br>
@@ -221,7 +221,7 @@ return 0;
 ```
 * **프로그램이 정상적으로 종료되었음을 의미합니다.**
 
-<img width="745" height="286" alt="결과화면" src="결과화면 주소" />
+<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/CPP_programming/blob/main/img/5-1-4.png?raw=true" />
 
 
 # 실습과제5 소스코드 설명  
@@ -303,4 +303,4 @@ return 0;
 ```
 * **프로그램이 정상적으로 종료되었음을 의미합니다.**
 
-<img width="745" height="286" alt="결과화면" src="결과화면 주소" />
+<img width="745" height="286" alt="결과화면" src="https://github.com/blackdw3329/CPP_programming/blob/main/img/5-1-5.png?raw=true" />
