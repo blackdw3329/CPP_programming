@@ -9,7 +9,8 @@ public:
 	Complex operator+(Complex b);
 };
 void Complex::show() {
-	cout << this->real << "+" << this->img << "j" << endl;
+	if (this->img > 0) cout << this->real << "+" << this->img << "j" << endl;
+	else cout << this->real << this->img << "j" << endl; 
 }
 Complex Complex::operator+(Complex b) {
 	Complex tmp;
